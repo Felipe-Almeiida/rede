@@ -1,0 +1,65 @@
+<DOCTYPE html>
+<html lang="pt-br">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title> GoTour - Agência de Turismo</title>
+      <link rel="stylesheet" href="style.css">
+      <script src="script.js"></script>
+    </head>
+    <body>
+      <header>
+		<img src="images/logo.png" alt="Logo GoTour" class="logo">
+		<h1>GoTour - Explore o Mundo Conosco</h1>
+	  </header>
+      <nav>
+        <a href="#sobre"> Sobre Nós</a>
+        <a href="#pacotes"> Pacotes</a>
+        <a href="#contato"> Contato</a>
+      </nav>
+      <section id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>Somos uma agência de turismo dedicada a proporcionar experiências inesquecíveis.</p>
+      </section>
+      <section id="pacotes">
+          <h2>Pacotes de Viagem</h2>
+          <div class="carousel">
+              <button class="carousel-btn prev" onclick="moveSlide(-1)">&#10094;</button>
+              <div class="carousel-container" id="carousel-container">
+                  <div class="pacote">
+                      <img src="https://d3h1lg3ksw6i6b.cloudfront.net/media/image/2024/04/04/b2223ece3cc1431985ad1ec91dff0105_Rio_de_Janeiro_situada_entre_montanhas_e_o_mar.jpg" alt="Rio de Janeiro">
+                      <h3>Rio de Janeiro</h3>
+                      <p>5 dias</p>
+                  </div>
+                  <div class="pacote">
+                      <img src="images/nagoya.jpg" alt="Nagoya">
+                      <h3>Nagoya</h3>
+                      <p>15 dias</p>
+                  </div>
+                  <div class="pacote">
+                      <img src="images/milao.jpg" alt="Milão">
+                      <h3>Milão</h3>
+                      <p>10 dias</p>
+                  </div>
+                  <div class="pacote">
+                      <img src="images/sydney.jpg" alt="Sydney">
+                      <h3>Sydney</h3>
+                      <p>14 dias</p>
+                  </div>
+                  <div class="pacote">
+                      <img src="https://turismo.eurodicas.com.br/wp-content/uploads/2024/01/o-que-fazer-em-bucareste.jpg" alt="Bucaresti">
+                      <h3>Bucareste</h3>
+                      <p>7 dias</p>
+                  </div>
+              </div>
+              <button class="carousel-btn next" onclick="moveSlide(1)">&#10095;</button>
+          </div>
+
+      </section>
+      <footer>
+        <p>&copy; 2025 GoTour - Todos os direitos reservados</p>
+      </footer>
+    </body>
+</html>
+
+
